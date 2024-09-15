@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 # Load CSV data into a pandas DataFrame
-csv_file = 'dataset/sample_test_out.csv'  # Replace with your CSV file path
+csv_file = 'dataset/train.csv'  # Replace with your CSV file path
 df = pd.read_csv(csv_file)
 
 # Create output directory for separate CSV files
